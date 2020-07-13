@@ -251,10 +251,12 @@ def swap():
 
 """ Select only positive values """
 
+
 def selection():
     array = list(range(-6, 10))
     print([a for a in array if a > 0])
     return
+
 
 def select_range():
     array = [i for i in range(100)]
